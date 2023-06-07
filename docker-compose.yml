@@ -9,9 +9,9 @@ services:
       MYSQL_PASSWORD: 'pa$$w0rd'
       MYSQL_ROOT_PASSWORD: 'pa$$w0rd'
     ports:
-      - '3306:3306'
+      - '3306:4306'
     expose:
-      - '3306'
+      - '4306'
     volumes:
       - my-db:/var/lib/mysql
 volumes:
